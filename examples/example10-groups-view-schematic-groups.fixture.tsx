@@ -60,7 +60,7 @@ const circuitJson = renderToCircuitJson(
 
 export default () => {
   return (
-    <div style={{ position: "relative", height: "100%" }}>
+    <div style={{ position: "relative", width: "600vw", height: "600vh" }}>
       <SchematicViewer
         circuitJson={circuitJson}
         containerStyle={{
